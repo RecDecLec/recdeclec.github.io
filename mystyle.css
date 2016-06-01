@@ -38,3 +38,14 @@ iframe {
 .gaster {
     font-family:wingdings;
 }
+.arial {
+    font-family:arial;
+}
+.menu {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 300px;
+    background-color: #b0e0e6;
+}
+}
