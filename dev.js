@@ -1,7 +1,7 @@
-document.getElementById("vers").innerHTML = "2";
+document.getElementById("vers").innerHTML = "3";
 function edittextbyid(id, text) {
     document.getElementById(id).innerHTML = text;
  }
- function editcssbyid(id, value) {
+ function editcolorbyid(id, value) {
     document.getElementById(id).style.color = value;
  }
