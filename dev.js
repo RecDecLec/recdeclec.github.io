@@ -1,7 +1,7 @@
 
-function editbyid(id, text) {
+function edittextbyid(id, text) {
     document.getElementById(id).innerHTML = text;
  }
- function editbyid2(id, text) {
-    document.getElementById("id").innerHTML = text;
+ function editcssbyid(id, text) {
+    document.getElementById(id).innerHTML = "text";
  }
