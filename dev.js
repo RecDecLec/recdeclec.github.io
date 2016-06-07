@@ -1,4 +1,3 @@
-document.getElementById("vers").innerHTML = "3";
 function edittextbyid(id, text) {
     document.getElementById(id).innerHTML = text;
  }
