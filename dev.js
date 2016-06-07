@@ -4,3 +4,4 @@ function edittextbyid(id, text) {
  function editcolorbyid(id, value) {
     document.getElementById(id).style.color = value;
  }
+ 
