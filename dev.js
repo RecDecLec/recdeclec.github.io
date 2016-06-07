@@ -5,6 +5,6 @@ function edittext(id, text) {
     var para = document.createElement(tag);
     var node = document.createTextNode(value);
     para.appendChild(node);
-    para.id=id
+    para.id=Math.floor(Math.random() * 11);
  }
  
