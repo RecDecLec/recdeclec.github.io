@@ -5,6 +5,6 @@ function edittext(id, text) {
     var para = document.createElement(tag);
     var node = document.createTextNode(value);
     para.appendChild(node);
-    document.getElementsByTagName(tag).id= id
+    para.id=id
  }
  
