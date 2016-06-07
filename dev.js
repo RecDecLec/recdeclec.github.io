@@ -1,7 +1,10 @@
-function edittextbyid(id, text) {
+function edittext(id, text) {
     document.getElementById(id).innerHTML = text;
  }
- function editcolorbyid(id, value) {
-    document.getElementById(id).style.color = value;
+ function maketag(tag, id, value) {
+    var para = document.createElement(tag);
+    var node = document.createTextNode(value);
+    para.appendChild(node);
+    document.getElementsByTagName(tag).id= id
  }
  
